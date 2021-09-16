@@ -1,5 +1,5 @@
-const ZombieFactory = artifacts.require("ZombieFactory");
+const ZombieOwnership = artifacts.require("ZombieOwnership");
 
 module.exports = function(deployer) {
-  deployer.deploy(ZombieFactory);
+	deployer.deploy(ZombieOwnership);
 };
